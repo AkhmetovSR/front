@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  background-color: #282c34;
+  align-content: center;
+  color: white;
+  margin: 10px;
 }
 
 .App-logo {
