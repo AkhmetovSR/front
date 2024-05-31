@@ -2,6 +2,9 @@ import s from './App.module.css';
 
 let tg = window.Telegram.WebApp;
 
+function close(){
+    tg.close();
+}
 
 
 function App() {
@@ -11,7 +14,7 @@ function App() {
             <div className={s.btn}>asd</div>
             <div className={s.btn}></div>
             <div className={s.btn}></div>
-            <div className={s.btn}></div>
+            <div className={s.btn} onClick={close}>Close</div>
         </div>
     );
 }
