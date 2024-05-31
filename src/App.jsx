@@ -1,6 +1,6 @@
 import s from './App.module.css';
 
-// const tg = window.Telegram.WebApp;
+const tg = window.Telegram.WebApp;
 
 
 
